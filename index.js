@@ -62,12 +62,14 @@ async function main() {
 
   console.log()
 
-  const githubLink = link('btw its awesome -> ', 'https://github.com/bhawnaniankit');
+  const githubLink = link('btw its awesome -> ', 'https://github.com/ajdeevs');
   const websiteLInk = link('Coolest thing -> ', 'https://ajdevs.xyz');
+  const blogLInk = link('weekly content -> ', 'https://blog.ajdevs.xyz');
   console.log(`NAME    `.green + ' - ' + 'ajdevs'.cyan);
   console.log(`STATUS  `.green + ' - ' + 'Student'.cyan);
   console.log(`GITHUB  `.green + ' - ' + `${githubLink}`.cyan);
   console.log(`WEBSITE `.green + ' - ' + `${websiteLInk}`.cyan);
+  console.log(`BLOG WEBSITE `.green + ' - ' + `${blogLInk}`.cyan);
 
   console.log()
 
